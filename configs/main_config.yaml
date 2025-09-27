@@ -1,0 +1,15 @@
+# --- Input and Output Settings ---
+# Path to the folder containing your EO/IR image pairs
+data_path: "data/"
+# Where to save the results
+output_path: "results/"
+
+# --- AI Model Settings ---
+# Which pre-trained model to use (you can easily swap this later)
+model_name: "yolov8n.pt"
+
+# --- Detection Settings ---
+# The AI will only show detections with confidence above this value (0.0 to 1.0)
+confidence_threshold: 0.4
+# Show labels on the output images?
+show_labels: true
