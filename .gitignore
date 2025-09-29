@@ -1,0 +1,10 @@
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+
+# Ignore our data and results folders
+data/
+results/
+
+# Ignore VS Code specific settings
+.vscode/
