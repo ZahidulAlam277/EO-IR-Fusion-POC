@@ -78,7 +78,7 @@ for eo_filename, ir_filename in image_pairs:
     side_by_side_image = np.concatenate((resized_eo, resized_ir), axis=1)
 
     # --- 6. Save the Output Image ---
-    output_filename = eo_filename.replace('_eo.jpeg', '_fused_result.jpeg')
+    output_filename = eo_filename.replace('_eo.jpg', '_fused_result.jpg')
     output_filepath = os.path.join(OUTPUT_PATH, output_filename)
     cv2.imwrite(output_filepath, side_by_side_image)
     print(f"✅ Fused result saved to: {output_filepath}")

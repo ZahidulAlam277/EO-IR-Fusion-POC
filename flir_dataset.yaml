@@ -1,0 +1,16 @@
+# --- Dataset Configuration ---
+
+# Full path to the main YOLO dataset folder you just created
+path: D:/FLIR_YOLO_Dataset
+
+# Train/validation directories (relative to the 'path' above)
+train: train/images
+val: val/images
+
+# Class names - map class ID to a name
+names:
+  0: person
+  1: bicycle
+  2: car
+  # Note: Your dataset might have more classes. 
+  # The prepare_dataset.py script printed the list when it ran.
