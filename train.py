@@ -9,7 +9,7 @@ DATASET_YAML_PATH = 'flir_dataset.yaml'
 BASE_MODEL = 'yolov8n.pt'
 
 # Number of training epochs (how many times to go through the dataset)
-EPOCHS = 1 
+EPOCHS = 1
 
 # Image size
 IMAGE_SIZE = 640

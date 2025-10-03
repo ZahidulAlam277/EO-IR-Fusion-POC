@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bicycle', 'car', 'dog', 'empty', 'person']
+
+roboflow:
+  workspace: visual-studio-pgvp2
+  project: thermal-flir-ej7hh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/visual-studio-pgvp2/thermal-flir-ej7hh/dataset/1

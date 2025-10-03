@@ -81,6 +81,6 @@ for eo_filename, ir_filename in image_pairs:
     output_filename = eo_filename.replace('_eo.jpg', '_fused_result.jpg')
     output_filepath = os.path.join(OUTPUT_PATH, output_filename)
     cv2.imwrite(output_filepath, side_by_side_image)
-    print(f"✅ Fused result saved to: {output_filepath}")
+    print(f"Fused result saved to: {output_filepath}")
 
 print("\nBatch processing complete.")
